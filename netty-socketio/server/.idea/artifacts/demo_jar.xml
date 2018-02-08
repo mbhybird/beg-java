@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact name="demo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo_jar</output-path>
+    <root id="root">
+      <element id="archive" name="demo.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="demo" />
+      </element>
+      <element id="library" level="project" name="Maven: io.netty:netty-common:4.0.25.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-transport:4.0.25.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-transport-native-epoll:4.0.25.Final" />
+      <element id="library" level="project" name="lib" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec:4.0.25.Final" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.7" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.0.25.Final" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.3" />
+      <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.0.25.Final" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.0" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.3" />
+      <element id="library" level="project" name="Maven: com.corundumstudio.socketio:netty-socketio:1.7.7" />
+      <element id="library" level="project" name="Maven: io.netty:netty-handler:4.0.25.Final" />
+    </root>
+  </artifact>
+</component>

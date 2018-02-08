@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Class-Path: jackson-databind-2.8.10.jar tomcat-embed-el-8.5.27.jar spr
+ ing-jdbc-4.3.14.RELEASE.jar spring-boot-autoconfigure-1.5.10.RELEASE.
+ jar mysql-connector-java-5.1.45.jar hibernate-validator-5.3.6.Final.j
+ ar spring-webmvc-4.3.14.RELEASE.jar spring-core-4.3.14.RELEASE.jar to
+ mcat-embed-websocket-8.5.27.jar log4j-over-slf4j-1.7.25.jar tomcat-ju
+ li-8.5.27.jar tomcat-annotations-api-8.5.27.jar spring-boot-starter-w
+ eb-1.5.10.RELEASE.jar jul-to-slf4j-1.7.25.jar spring-boot-1.5.10.RELE
+ ASE.jar spring-tx-4.3.14.RELEASE.jar logback-core-1.1.11.jar jackson-
+ core-2.8.10.jar spring-boot-starter-jdbc-1.5.10.RELEASE.jar validatio
+ n-api-1.1.0.Final.jar spring-boot-starter-tomcat-1.5.10.RELEASE.jar c
+ lassmate-1.3.4.jar snakeyaml-1.17.jar jackson-annotations-2.8.0.jar l
+ ogback-classic-1.1.11.jar spring-expression-4.3.14.RELEASE.jar spring
+ -context-4.3.14.RELEASE.jar json-20160810.jar aip-java-sdk-4.1.0.jar 
+ tomcat-embed-core-8.5.27.jar spring-aop-4.3.14.RELEASE.jar spring-boo
+ t-starter-1.5.10.RELEASE.jar slf4j-api-1.7.25.jar jcl-over-slf4j-1.7.
+ 25.jar spring-beans-4.3.14.RELEASE.jar spring-web-4.3.14.RELEASE.jar 
+ spring-boot-starter-logging-1.5.10.RELEASE.jar tomcat-jdbc-8.5.27.jar
+  jboss-logging-3.3.1.Final.jar
+Main-Class: com.example.aiweb.AiwebApplication
+

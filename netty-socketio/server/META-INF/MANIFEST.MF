@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Class-Path: netty-common-4.0.25.Final.jar netty-transport-4.0.25.Final
+ .jar netty-transport-native-epoll-4.0.25.Final.jar json-20160810.jar 
+ commons-lang3-3.7.jar javax.jms-3.1.2.2.jar aip-java-sdk-4.1.0.jar ac
+ tivemq-all-5.15.2.jar netty-codec-4.0.25.Final.jar slf4j-simple-1.7.7
+ .jar netty-codec-http-4.0.25.Final.jar slf4j-api-1.7.7.jar jackson-co
+ re-2.4.3.jar netty-buffer-4.0.25.Final.jar jackson-annotations-2.4.0.
+ jar jackson-databind-2.4.3.jar netty-socketio-1.7.7.jar netty-handler
+ -4.0.25.Final.jar mysql-connector-java-5.1.44-bin.jar
+Main-Class: com.corundumstudio.socketio.demo.ChatLauncher
+
