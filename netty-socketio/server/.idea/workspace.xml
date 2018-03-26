@@ -30,20 +30,22 @@
       <file leaf-file-name="ChatLauncher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-              <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+            <state relative-caret-position="5118">
+              <caret line="348" column="24" lean-forward="false" selection-start-line="348" selection-start-column="24" selection-end-line="348" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-                <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-                <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-                <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-                <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-                <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-                <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-                <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-                <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-                <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+                <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+                <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+                <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+                <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+                <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+                <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+                <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+                <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+                <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+                <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+                <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+                <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
               </folding>
             </state>
           </provider>
@@ -84,7 +86,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -170,14 +172,6 @@
               <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo_jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -193,25 +187,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -872,14 +852,28 @@
       <workItem from="1517970322851" duration="4274000" />
       <workItem from="1517989081356" duration="2764000" />
       <workItem from="1518072742547" duration="15000" />
+      <workItem from="1519919984866" duration="900000" />
+      <workItem from="1520305747299" duration="607000" />
+      <workItem from="1520316748084" duration="1298000" />
+      <workItem from="1520324908141" duration="623000" />
+      <workItem from="1520327957733" duration="486000" />
+      <workItem from="1520328448954" duration="1000" />
+      <workItem from="1520404913484" duration="2863000" />
+      <workItem from="1520410255650" duration="9000" />
+      <workItem from="1521702986320" duration="311000" />
+      <workItem from="1521713833134" duration="1803000" />
+      <workItem from="1521770771459" duration="7708000" />
+      <workItem from="1521794023128" duration="309000" />
+      <workItem from="1522033127734" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76292000" />
+    <option name="totallyTimeSpent" value="93229000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -889,21 +883,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231441" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3222061" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39842632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31831187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -936,16 +930,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -956,16 +952,282 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4530">
+          <caret line="302" column="22" lean-forward="false" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4245">
+          <caret line="302" column="22" lean-forward="false" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4245">
+          <caret line="302" column="22" lean-forward="false" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -976,16 +1238,18 @@
           <caret line="346" column="38" lean-forward="false" selection-start-line="346" selection-start-column="38" selection-end-line="346" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -996,16 +1260,18 @@
           <caret line="234" column="48" lean-forward="false" selection-start-line="234" selection-start-column="48" selection-end-line="234" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1016,16 +1282,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1036,16 +1304,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1056,16 +1326,18 @@
           <caret line="282" column="9" lean-forward="false" selection-start-line="282" selection-start-column="9" selection-end-line="282" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1076,16 +1348,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1096,16 +1370,18 @@
           <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1116,16 +1392,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1136,16 +1414,18 @@
           <caret line="337" column="17" lean-forward="false" selection-start-line="337" selection-start-column="17" selection-end-line="337" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1156,16 +1436,18 @@
           <caret line="337" column="17" lean-forward="false" selection-start-line="337" selection-start-column="17" selection-end-line="337" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1176,16 +1458,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1196,16 +1480,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1216,16 +1502,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1236,16 +1524,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1256,16 +1546,18 @@
           <caret line="280" column="20" lean-forward="false" selection-start-line="280" selection-start-column="20" selection-end-line="280" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1276,16 +1568,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1296,16 +1590,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1316,16 +1612,18 @@
           <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1336,16 +1634,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>
@@ -1380,22 +1680,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.jms-3.1.2.2.jar!/javax/jms/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/corundumstudio/socketio/demo/ChatLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        <state relative-caret-position="5118">
+          <caret line="348" column="24" lean-forward="false" selection-start-line="348" selection-start-column="24" selection-end-line="348" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517980978005" expanded="true" signature="5847:5875" ph="select photo... newuser" />
-            <marker date="1517980978005" expanded="true" signature="7060:7092" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7060:7117" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="7813:7847" ph="select * fro... filteruser" />
-            <marker date="1517980978005" expanded="true" signature="8307:8340" ph="delete from " />
-            <marker date="1517980978005" expanded="true" signature="9904:9947" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="9904:9953" ph="insert into newuser... " />
-            <marker date="1517980978005" expanded="true" signature="10455:10504" ph="insert into olduser... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11021" ph="update oldus... " />
-            <marker date="1517980978005" expanded="true" signature="10983:11070" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="6220:6248" ph="select photo... newuser" />
+            <marker date="1521789710526" expanded="true" signature="7514:7546" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="7514:7571" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="8267:8301" ph="select * fro... filteruser" />
+            <marker date="1521789710526" expanded="true" signature="8761:8794" ph="delete from " />
+            <marker date="1521789710526" expanded="true" signature="10344:10387" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10344:10393" ph="insert into newuser... " />
+            <marker date="1521789710526" expanded="true" signature="10913:10971" ph="insert into olduser... " />
+            <marker date="1521789710526" expanded="true" signature="11496:11546" ph="insert into t_customer... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12163" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="12125:12212" ph="update oldus... " />
+            <marker date="1521789710526" expanded="true" signature="17872:17914" ph="select image... facePic" />
           </folding>
         </state>
       </provider>

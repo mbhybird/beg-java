@@ -14,6 +14,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.sql.*;
 import java.sql.Connection;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -25,6 +26,7 @@ public class ChatLauncher {
 
     public static final String IP = "192.168.3.211";
     public static final String GROUP_ID = "group3";
+    public static final String REQUEST_IMAGE_URL = "http://" + IP + ":9527" + "/getImageByFaceId?id=";
 
     public static final String APP_ID = "10546196";
     public static final String API_KEY = "n4i5GdULwGdBIi22SZ65QEZB";
@@ -44,7 +46,7 @@ public class ChatLauncher {
     //MySQL配置时的用户名
     static String user = "root";
     //MySQL配置时的密码
-    static String password = "123456";
+    static String password = "root";
     //声明Connection对象
     static Connection con;
 
@@ -89,8 +91,8 @@ public class ChatLauncher {
         {
             // Create a ConnectionFactory
             ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(
-                    "system",
-                    "manager",
+                    "admin",
+                    "admin",
                     "tcp://" + IP + ":61616");
 
             // Create a Connection
@@ -109,15 +111,17 @@ public class ChatLauncher {
 
             // Wait for a message, loop forever
             boolean loop = true;
-            while(loop)
-            {
+            while(loop) {
                 Message message = consumer.receive(1);
-                if (message == null)
-                {
+                if (message == null) {
                     continue;
                 }
 
-                if (message instanceof MapMessage) {
+                if (message instanceof TextMessage) {
+                    String text = ((TextMessage) message).getText();
+                    faceQueue.offer(text);
+                    System.out.println(text);
+                } else if (message instanceof MapMessage) {
                     MapMessage mapMessage = (MapMessage) message;
                     //查看以下的测试代码输出，第一行直接打印theTable确实是为空；而下面调用一行根据key获取值之后，再下面一行打印输出theTable就有数了
                     //另外，从MapMessage里面取值基本是用第二行类似的语句，直接是getString类似的语句，根据key值获取
@@ -126,8 +130,7 @@ public class ChatLauncher {
                     System.out.println(mapMessage.getString("rtId"));
                     //System.out.println(mapMessage);
 
-                }
-                else {
+                } else {
                     continue;
                 }
 
@@ -156,17 +159,19 @@ public class ChatLauncher {
                     try {
                         if (filterQueue.size() > 0) {
                             long uid = filterQueue.poll();
-                            String path1 = "http://" + IP + ":8080/FaceOS/RTFaceAction!getFacePhoto.do?id=" + uid;
-                            System.out.println(path1);
+                            //String path1 = "http://" + IP + ":8080/FaceOS/RTFaceAction!getFacePhoto.do?id=" + uid;
+                            //System.out.println(path1);
 
-                            byte[] image1 = getImageFromNetByUrl(path1);
+                            //byte[] image1 = getImageFromNetByUrl(path1);
+                            byte[] image1 = readBlob(uid);
 
                             Statement statement = con.createStatement();
                             String sql = "select id,photo from newuser";
                             ResultSet rs = statement.executeQuery(sql);
                             String ids = "";
                             while (rs.next()) {
-                                byte[] image2 = getImageFromNetByUrl(rs.getString("photo"));
+                                //byte[] image2 = getImageFromNetByUrl(rs.getString("photo"));
+                                byte[] image2 = readBlob(rs.getLong("photo"));
                                 Thread.currentThread().sleep(500);
                                 JSONObject res = client.match(new byte[][]{image1, image2}, new HashMap<String, String>());
                                 //System.out.println(res.toString(2));
@@ -256,13 +261,13 @@ public class ChatLauncher {
         }
     }
 
-    private static void addNewUser (String uid, String photo, String info) {
+    private static void addNewUser (String uid, String info) {
         String sql = "insert into newuser(uid,photo,info) values(?,?,?)";
         PreparedStatement pstmt;
         try {
             pstmt = (PreparedStatement) con.prepareStatement(sql);
             pstmt.setLong(1, Long.parseLong(uid));
-            pstmt.setString(2, photo);
+            pstmt.setString(2, REQUEST_IMAGE_URL + uid);
             pstmt.setString(3, replaceBlank(info));
             pstmt.executeUpdate();
             pstmt.close();
@@ -271,14 +276,15 @@ public class ChatLauncher {
         }
     }
 
-    private static void addOldUser (String uid, String photo, String info) {
-        String sql = "insert into olduser(uid,photo,info) values(?,?,?)";
+    private static void addOldUser (String uid, String info, String crmId) {
+        String sql = "insert into olduser(uid,photo,info,crm_id) values(?,?,?,?)";
         PreparedStatement pstmt;
         try {
             pstmt = (PreparedStatement) con.prepareStatement(sql);
             pstmt.setLong(1, Long.parseLong(uid));
-            pstmt.setString(2, photo);
+            pstmt.setString(2, REQUEST_IMAGE_URL + uid);
             pstmt.setString(3, replaceBlank(info));
+            pstmt.setString(4, crmId);
             pstmt.executeUpdate();
             pstmt.close();
         } catch (Exception e) {
@@ -286,8 +292,39 @@ public class ChatLauncher {
         }
     }
 
+    private static String addCustomer () {
+        String sql = "insert into t_customer(custname,crmid) values(?,?)";
+        SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");
+        String crmId = "crm_" + df.format(System.currentTimeMillis());
+        PreparedStatement pstmt;
+        try {
+            pstmt = (PreparedStatement) con.prepareStatement(sql);
+            pstmt.setString(1, crmId);
+            pstmt.setString(2, crmId);
+            pstmt.executeUpdate();
+            pstmt.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return crmId;
+    }
+
     private static void updateUserType (String uid) {
         String sql = "update olduser set isNew=0 where uid=? and isNew=1 and CURRENT_TIMESTAMP()-crdate > 100 ";
+        PreparedStatement pstmt;
+        try {
+            pstmt = (PreparedStatement) con.prepareStatement(sql);
+            pstmt.setLong(1, Long.parseLong(uid));
+            pstmt.executeUpdate();
+            pstmt.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void updateHistory(String uid) {
+        String sql = "insert history(uid) values(?) ";
         PreparedStatement pstmt;
         try {
             pstmt = (PreparedStatement) con.prepareStatement(sql);
@@ -313,13 +350,14 @@ public class ChatLauncher {
         try {
             String info;
             String faceId = faceQueue.poll();
-            String path = "http://" + IP + ":8080/FaceOS/RTFaceAction!getFacePhoto.do?id=" + faceId;
+            //String path = "http://" + IP + ":8080/FaceOS/RTFaceAction!getFacePhoto.do?id=" + faceId;
 
             HashMap<String, String> options = new HashMap<String, String>();
             options.put("max_face_num", "1");
             options.put("face_fields", "age,beauty,gender,glasses,race,qualities");
 
-            byte[] image = getImageFromNetByUrl(path);
+            //byte[] image = getImageFromNetByUrl(path);
+            byte[] image = readBlob(Long.parseLong(faceId));
             JSONObject res = client.detect(image, options);
             info = res.toString(2);
             System.out.println(info);
@@ -340,7 +378,8 @@ public class ChatLauncher {
                     if (errCode != 216616) {
                         JSONObject addUser = client.addUser(faceId, faceId, groupId, image, new HashMap<String, String>());
                         System.out.println(addUser.toString(2));
-                        addOldUser(faceId, path, res.toString(2));
+                        String crmId = addCustomer();
+                        addOldUser(faceId, res.toString(2), crmId);
                         Thread.currentThread().sleep(5000);
                     }
                 } else {
@@ -357,17 +396,19 @@ public class ChatLauncher {
 //                            socketQueue.get(0).getBroadcastOperations().sendEvent("faceEvent", chatObject);
                             String uid = ((JSONObject) resIdentify.getJSONArray("result").get(0)).getString("uid");
                             updateUserType(uid);
+                            updateHistory(uid);
                         } else {
                             JSONObject addUser = client.addUser(faceId, faceId, groupId, image, new HashMap<String, String>());
                             System.out.println(addUser.toString(2));
-                            addOldUser(faceId, path, res.toString(2));
+                            String crmId = addCustomer();
+                            addOldUser(faceId, res.toString(2), crmId);
                             Thread.currentThread().sleep(5000);
                         }
                     }
                 }
             }
             else{
-                addNewUser(faceId, path, res.toString(2));
+                addNewUser(faceId, res.toString(2));
             }
 
         } catch (Exception e) {
@@ -401,4 +442,24 @@ public class ChatLauncher {
         return null;
     }
 
+    public static byte[] readBlob(long faceId) {
+        try {
+            InputStream is = null;
+            String sql = "select image from facePic where faceId = ?";
+            PreparedStatement ps = con.prepareStatement(sql);
+            ps.setLong(1, faceId);
+            ResultSet rs = ps.executeQuery();
+            if(rs.next()) {
+                is = rs.getBlob("image").getBinaryStream();
+            }
+            rs.close();
+            ps.close();
+            byte[] imgBytes = readInputStream(is);
+            return imgBytes;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
 }
